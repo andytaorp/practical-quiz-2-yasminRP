@@ -7,8 +7,10 @@ import React from "react";
  * TODO: implement the Habit component here
  */
 const newHabit = {
-    id:newHabit.length+1,
-    name: name,
+    id: length+1,
+    name: "",
     status: false,
 };
+
+<button onClick={() => handleDeleteItem(item.id)}>❌</button>
 export default function Habit() {}

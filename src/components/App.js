@@ -12,6 +12,7 @@ function App() {
 
   const handleToggleHabit = (id) => {
     // TODO: write code to toggle a habit's status
+    
 
   };
 
