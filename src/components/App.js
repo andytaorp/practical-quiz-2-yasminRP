@@ -7,7 +7,7 @@ function App() {
 
   const handleAddHabit = (habitName) => {
     // TODO: write code to add a new habit here
-    setHabits((Habit) => [...Habit,habits]);
+    setHabits((Habit) => [...Habit,habitName]);
   };
 
   const handleToggleHabit = (id) => {
@@ -23,7 +23,9 @@ function App() {
   return (
     <div>
       <h1>Habit Tracker</h1>
-      {/*TODO: add a form to add a new habit*/}
+      {/*TODO: add a form to add a new habit*/
+      <form className="add-New-Habit"/>
+      }
       {/*TODO: add a list of habits*/}
     </div>
   );

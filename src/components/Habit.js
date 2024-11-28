@@ -6,7 +6,9 @@ import React from "react";
  *
  * TODO: implement the Habit component here
  */
-const newHabit = [
-    {id: 1, name:habitName, status:boolean}
-]
+const newHabit = {
+    id:newHabit.length+1,
+    name: name,
+    status: false,
+};
 export default function Habit() {}
